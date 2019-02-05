@@ -1,0 +1,89 @@
+h1 {
+    text-align: center;
+    color: rgb(128, 43, 0);
+}
+
+#huge {
+	font-size: 200px;
+	font-style: oblique;
+}
+
+#big {
+	font-size: 80px;
+	font-style: oblique;
+}
+
+h1:hover {
+	color: rgb(204, 102, 0);
+}
+
+p{
+	text-align: center;
+	color:rgb(128, 43, 0);
+}
+
+p.thick {
+    font-weight: bold;
+    color: rgb(204, 102, 0);
+    font-size: 50px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+body{
+	background-color: #FFE6C6;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* Nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 134px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#footer {
+	background-color: #333;
+	color:red;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top:3px;
+    padding-bottom: 3px
+}

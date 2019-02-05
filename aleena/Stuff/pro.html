@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> pro </title>
+            <script>
+
+            function Dice() {
+
+                var win = 0
+                var loss = 0
+
+                var num1 = Math.floor(Math.random()*6)+1
+                console.log(num1);
+
+                var num2 = Math.floor(Math.random()*6)+1
+                console.log(num2);
+                
+                var num3 = Math.floor(Math.random()*6)+1
+                console.log(num3);
+                
+                var num4 = Math.floor(Math.random()*6)+1
+                console.log(num4);
+                
+                var num5 = Math.floor(Math.random()*6)+1
+                console.log(num5);
+
+                if(num1 == num2 == num3 == num4 == num5) {
+                    win++;
+                    alert("You won!")
+                } else {
+                    loss++;
+                    alert("You lost.")
+                }
+                
+            }
+            
+            Dice()
+
+
+
+
+                            
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

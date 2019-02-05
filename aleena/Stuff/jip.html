@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Button Practice</title>
+<script>
+
+function Game() {
+    var guess = prompt("Guess the Number between 1 and 1000, 'q' to quit");
+    var SecretNum = Math.floor(Math.random()*1000);
+    var tries = 0;
+    var gotit = true;
+
+    while (gotit) {
+    } 
+    	
+    	if (guess < SecretNum) {
+<body>
+	<button onclick="Game()">Start!</button>
+	<p id = "Guess"></p>
+    	    guess = prompt(tries + 1 + " tries. Higher");
+    	} else if (guess > SecretNum) {
+    	    guess = prompt(tries + 1 + " tries. Lower");
+    	} else if (guess == SecretNum) {
+            document.getElementById("Guess").innerHTML = "You got it in " + tries + " tries!";  
+            gotit = false;
+        } else if (guess == "q") {
+             document.getElementById("Guess").innerHTML = "Quitter";  
+            gotit = false;
+        } else {
+    	    guess = prompt("Invalid entry");
+    	}
+    	tries = tries + 1;
+}
+
+</script>
+</head>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+	<html>
+		<body>
+
+		<h2>JavaScript Array Sort</h2>
+
+		<p id="demo"></p>
+
+			<script>
+
+			var i1 = parseInt(prompt("Enter number."));
+			var i2 = parseInt(prompt("Enter number."));
+			var i3 = parseInt(prompt("Enter number."));
+
+			var points = [i1, i2, i3];
+			document.getElementById("demo").innerHTML = points;    
+
+			function myFunction() {
+    			points.sort(function(a, b){return a - b});
+    			document.getElementById("demo").innerHTML = points;
+			}
+			</script>
+
+		</body>
+	</html>
